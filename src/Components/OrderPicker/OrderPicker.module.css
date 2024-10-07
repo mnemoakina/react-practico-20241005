@@ -1,0 +1,11 @@
+.title{
+  padding: 0 1rem
+}
+.menu{
+  border:1px solid #f00;     
+  flex-grow: 1;
+}
+
+.foodList{
+  border: 1px solid #0dff00
+}

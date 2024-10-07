@@ -1,0 +1,10 @@
+.orderItem{
+  list-style: none;    
+  display: flex;
+}
+
+.cartItemProduct{
+  flex-grow: 8;
+  border: 1px solid #d35252;
+}
+

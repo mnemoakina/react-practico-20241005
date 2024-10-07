@@ -1,0 +1,64 @@
+.orderList{
+  border: 1px solid #f00;
+  flex-grow: 1;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;  
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #04ff00;
+  flex-grow: auto;
+  padding: 0 1rem 0 1rem;
+}
+.cart{
+  border: 1px solid #04ff00;
+  flex-grow: 1;
+  padding: 0.3rem 1rem;
+}
+
+.cartItems{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  gap: 1rem;
+  font-size: 1.2rem;
+  
+}
+.cartItem{  
+  border: 1px solid #04ff00;    
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+}
+
+.cartItemProduct {
+  background-color: #4f3737;
+  flex-grow: 4;
+}
+
+.cartItemQuantity {
+  flex-grow: 1;
+  border: 1px solid #d35252;
+  background-color: #4f3737;
+  text-align: center;
+}
+
+.calc {
+  border: 1px solid #04ff00;
+  flex-grow: auto;
+  display:flex;
+  font-size: 1.3rem;   
+   
+}
+.calcDesc{
+  flex-grow: auto;
+}
+.calcCurrency{
+  flex-grow: 1;
+}
+.calcValue{
+  flex-grow: auto;
+}

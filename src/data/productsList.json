@@ -1,0 +1,23 @@
+[
+  {
+    "id":0,
+    "name":"cheeseburger",
+    "price":5,
+    "quantity":20,
+    "imgURL": "🍔"
+  },
+  {
+    "id":1,
+    "name":"pizza slice",
+    "price":3,
+    "quantity":0,
+    "imgURL": "🍕"
+  },
+  {
+    "id":2,
+    "name":"hot dog",
+    "price":2.5,
+    "quantity":10,
+    "imgURL": "🌭"
+  }
+]
